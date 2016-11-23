@@ -1,4 +1,4 @@
-#Notify Tacacs++ users on expiring passwords
+# Notify Tacacs++ users on expiring passwords
 
 ## SCRIPT NAME: 
 - tac_plus_notify_users.sh
