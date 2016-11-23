@@ -1,4 +1,4 @@
-# Notify Tacacs++ users on expiring passwords
+#Notify Tacacs++ users on expiring passwords
 
 ## SCRIPT NAME: 
 - tac_plus_notify_users.sh
@@ -17,7 +17,7 @@
     - users_list.csv 
     - tac_plus.conf
 
-# HOW TO
+#HOW TO
 
 ## Prerequisites
 - A debian Server (7.x or 8.x)
