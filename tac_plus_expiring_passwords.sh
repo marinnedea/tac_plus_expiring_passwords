@@ -1,29 +1,4 @@
 #!/bin/bash
-#
-#SCRIPT  : tac_plus_notify_users.sh
-#AUTHOR  : Marin Nedea															
-#CREATED : 09-11-2016										
-#COMMENT : Script to notify tacacss users via e-mail when 
-#		   their password is about to expire or to 
-#		   notify the admins team via e-mail/ticket.
-#SAMPLES   Along with this script I added samples for the 
-#		   users_list.csv and tac_plus.conf files.
-#
-#LICENSE : Copyright (C) 2016 - Marin Nedea @ http://sysadmins.tech
-# 
-#		   This program is free software: you can redistribute it and/or modify
-#		   it under the terms of the GNU General Public License as published by
-#		   the Free Software Foundation, either version 3 of the License, or
-#		   at your option) any later version.
-#
-#  		   This program is distributed in the hope that it will be useful,
-#		   but WITHOUT ANY WARRANTY; without even the implied warranty of
-#		   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#		   GNU General Public License for more details.
-#
-#		   You should have received a copy of the GNU General Public License
-#		   along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
 
 #location of temporary file to store the results
 temp_file=/tmp/temp_file_tacacs
