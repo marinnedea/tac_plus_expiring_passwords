@@ -4,11 +4,12 @@
 - tac_plus_notify_users.sh
 
 ## AUTHOR:
-- Marin Nedea															
+- Marin Nedea	
+
 ## CREATED: 
 - 23-11-2016										
 
-## Description
+## DESCRIPTION:
 - Script to notify tacacss users via e-mail when their password is about to expire or to notify the admins team via e-mail/ticket.
 
 ## SAMPLES: 
@@ -16,7 +17,7 @@
     - users_list.csv 
     - tac_plus.conf
 
-#HOW TO
+# HOW TO
 
 ## Prerequisites
 - A debian Server (7.x or 8.x)
