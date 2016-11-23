@@ -1,16 +1,20 @@
 # Notify Tacacs++ users on expiring passwords
 
-SCRIPT  : tac_plus_notify_users.sh
+## SCRIPT NAME: 
+- tac_plus_notify_users.sh
 
-AUTHOR  : Marin Nedea															
-CREATED : 23-11-2016										
+## AUTHOR:
+- Marin Nedea															
+## CREATED: 
+- 23-11-2016										
 
-COMMENT : Script to notify tacacss users via e-mail when 
-their password is about to expire or to 
-notify the admins team via e-mail/ticket.
+## Description
+- Script to notify tacacss users via e-mail when their password is about to expire or to notify the admins team via e-mail/ticket.
 
-SAMPLES : Along with this script I added samples for the 
-users_list.csv and tac_plus.conf files.
+## SAMPLES: 
+- Along with this script I added samples for the following files: 
+    - users_list.csv 
+    - tac_plus.conf
 
 #HOW TO
 
