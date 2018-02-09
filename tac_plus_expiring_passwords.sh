@@ -18,7 +18,7 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
     user=$(echo $line | awk '{print $1}')
 
 	#get the e-mail address of the users from an external CSV file
-	usermail=$(grep $user /mnt/chemnitz/users_list.csv | cut -d"," -f 3)  #replace 3  with column number in the csv file
+	usermail=$(grep $user /path_to_my_users_file/users_list.csv | cut -d"," -f 3)  #replace 3  with column number in the csv file
 
 	#getting the expire date coresponding to the user
     date_expire=$(echo $line | awk -F: '{print $2}' | xargs)
